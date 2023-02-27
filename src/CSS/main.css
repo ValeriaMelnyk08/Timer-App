@@ -1,0 +1,51 @@
+body{
+  background-color: rgb(7, 100, 121);
+}
+.timerMain {
+  max-width: 300px;
+  margin: auto;
+  padding: 30px 0;
+}
+.text {
+  color: yellow;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.timerCont {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 15px 0;
+}
+
+.timerReset, .timerStopStart {
+  width: 30%;
+  height: 25px;
+  background: rgb(0, 0, 0, 0);
+  border: 2px solid rgb(182, 217, 65);
+  color: rgb(201, 233, 94);
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: grab;
+  text-transform: uppercase;
+}
+
+.timerReset:hover {
+  color: rgb(23, 223, 13); 
+  border: none;
+}
+
+.timerStopStart:hover {
+  color: rgb(23, 223, 13); 
+  border: none;
+}
+.timer {
+  padding: 2px;
+  border: 2px solid rgb(200, 226, 30);
+}
+.timerLength {
+  height: 30px;
+  background: rgb(61, 62, 60);
+  
+}
